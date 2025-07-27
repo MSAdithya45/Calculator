@@ -1,0 +1,38 @@
+/* Container to center everything */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Grid for calculator buttons */
+.calc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Button styles */
+button {
+  background-color: #3a0000;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.operator {
+  background-color: #5c0000;
+}
+
+button.clear-btn {
+  background-color: #700000;
+}
+
+
